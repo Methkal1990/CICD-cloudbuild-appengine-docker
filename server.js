@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get('/', async (req, res) => {
-  res.send("Built with Nodejs and deployed using Cloud Build and Cloud Run v1");
+  res.send("Built with Nodejs and deployed using Cloud Build and App Engine Custom v1");
 })
 
 
